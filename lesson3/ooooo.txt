@@ -1,0 +1,9 @@
+các từ khóa hay dùng
+font : size , weight , family , ...
+boder: style , color , width
+boder-radius: top , bottom , left , right
+margin/paddin:
+color
+background: color , image ,...
+display: block( hiện lên), none (ẩn đi)
+height/width: min , max

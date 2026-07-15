@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab03-ex3</title>
+    <style>
+        body{
+            font-family: Arial;
+            display: flex;
+            margin: 0;
+            
+        }
+        .box{
+            width: 100px;
+            background-color: dimgray;
+            margin: 0px;
+            padding: 20px;
+            text-align: center;     
+        }
+        .box2{
+            position: relative;
+            background-color: gray;
+        }
+        .menu{
+            display: none;
+            position: absolute;
+            top: 100%; 
+            left: 0;
+            width: 100%;
+            background-color:rgb(141, 118, 130);
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .menu div{
+            padding: 10px 0;
+            color: black;
+        }
+        .box2:hover .menu{
+            display: block;
+        }
+        
+   
+    </style>
+</head>
+<body>
+    <div class="box">Trang chủ</div>
+
+    <div class="box box2">Sản phẩm
+    <div class="menu">
+        <div>Laptop</div>
+        <div>Điện thoại</div>
+        <div>Phụ kiện</div>
+    </div>
+    </div>
+
+    <div class="box box3">liên hệ</div>
+
+</body>
+</html>
