@@ -1,0 +1,4 @@
+nguyên tắc ưu tiên trong css
+css viết sau sẽ đc ưu tiên sử dụng
+important > #tên_ID > (tên thuộc tính + giá trị) >
+càng chi tiết và càng gần thì lại càng đc ưu tiên
